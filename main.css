@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.principal-players {
+    text-align: center;
+    width: 100%;
+    margin: 0; 
+    padding: 20px 0; 
+}
+
+header {
+    background-color: rgb(0,100,1);
+    padding: 21px;
+    color: #fff;
+    font-family: "Protest Strike", system-ui;
+    font-weight: 400;
+}
+
+header h1 {
+    font-style: normal;
+    margin-left: 21px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #32CD32;
+}
+
+section {
+    background-color: rgba(34,139,34,0.3);
+}
+
+section .container {
+    display: flex;
+    text-align: justify;
+}
+
+section h2 {
+    font-family: "Protest Strike", system-ui;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section .container img {
+    height: 500px;
+    padding: 45px;
+}
+
+body {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.about-box {
+        width: 800px;
+        height: 412px;
+        padding: 20px;
+        background-color: rgba(0,128,0,0.1);
+        margin: 45px 30px 30px 30px;
+        border-radius: 5px;
+}
+
+.principal-players,
+.contact {
+    background-color: rgb(0,100,1);
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#principal-players img {
+    height: 300px;
+    padding: 16px;
+}
+
+.articles h3 {
+    text-align: center;
+}
+
+.articles p {
+    flex: wrap;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 100px;
+    padding: 8px;
+}
+
+.container a {
+    font-size: 21px;
+}
+
+form button {
+    background-color: rgb(0,100,1);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(34,139,34,0.3);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgba(34,139,34,0.3);
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-left: 35px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.contact-methods h3 {
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(0,100,1);
+    padding: 18px;
+}
